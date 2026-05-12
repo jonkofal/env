@@ -16,5 +16,8 @@
   },
   "engines": {
     "node": ">=24"
+  },
+  "repository" : {
+    "url" : "https://github.com/jonkofal/env"
   }
 }
