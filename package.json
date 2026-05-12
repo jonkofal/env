@@ -1,6 +1,6 @@
 {
   "name": "@ampsy/env",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Fast-fail environment variable accessor.",
   "author": "Jon Kofal",
   "main": "./lib/env.js",
@@ -17,7 +17,7 @@
   "engines": {
     "node": ">=24"
   },
-  "repository" : {
-    "url" : "https://github.com/jonkofal/env"
+  "repository": {
+    "url": "https://github.com/jonkofal/env"
   }
 }
