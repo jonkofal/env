@@ -1,0 +1,14 @@
+{
+  "name": "@jonkofal/env",
+  "version": "0.0.7",
+  "description": "Fast-fail environment variable accessor.",
+  "author": "Jon Kofal",
+  "main": "./lib/env.js",
+  "scripts": {
+    "test": "export $(grep -v '^#' .env | xargs) && node test/test.js",
+    "build": "echo nothing to see here, move along..."
+  },
+  "dependencies": {
+  },
+  "devDependencies": {}
+}

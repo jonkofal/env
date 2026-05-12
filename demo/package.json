@@ -1,0 +1,20 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "bad.js",
+  "type": "module",
+  "scripts": {
+    "bad": "nodemon bad.js",
+    "good": "nodemon good.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@jonkofal/env": "^0.0.7",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
