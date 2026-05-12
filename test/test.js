@@ -1,6 +1,6 @@
-const test = require('node:test')
-const assert = require('assert/strict')
-const { get } = require("../lib/env.js");
+import test from 'node:test';
+import assert from 'assert/strict';
+import get from '../lib/env.js';
 
 test('get', () => {
     let name = 'X';

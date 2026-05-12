@@ -4,11 +4,14 @@
   "description": "Fast-fail environment variable accessor.",
   "author": "Jon Kofal",
   "main": "./lib/env.js",
+  "type": "module",
   "scripts": {
     "test": "export $(grep -v '^#' .env | xargs) && node test/test.js",
     "build": "echo nothing to see here, move along..."
   },
-  "dependencies": {
-  },
-  "devDependencies": {}
+  "dependencies": {},
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
 }

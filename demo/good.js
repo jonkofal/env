@@ -1,7 +1,7 @@
 process.env.REMOTE_HOST = void(0);
 
 import express from "express";
-import { get } from '@jonkofal/env';
+import get from '@ampsy/env';
 
 const app = express();
 /**
