@@ -1,5 +1,5 @@
 {
-  "name": "@jonkofal/env",
+  "name": "@ampsy/env",
   "version": "0.0.7",
   "description": "Fast-fail environment variable accessor.",
   "author": "Jon Kofal",

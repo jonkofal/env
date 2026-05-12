@@ -1,5 +1,4 @@
-// process.env.REMOTE_HOST = void(0);
-process.env.REMOTE_HOST = 'www.blackdiamondequipment.com';
+process.env.REMOTE_HOST = void(0);
 
 import express from "express";
 import { get } from '@jonkofal/env';

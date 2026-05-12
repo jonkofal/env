@@ -1,5 +1,5 @@
 
-# Package@jonkofal/env
+# Package @ampsy/env
 - Solves problem of undefined environment variables causing odd errors in code, by
   throwing an AssertionError with a clear message when an environment variable is undefined.
 - fast-fail wrapper for environment variables.
@@ -7,7 +7,7 @@
  
 # Usage
 ```
-const { get } = require('@jonkofal/env');
+const { get } = require('@ampsy/env');
 
 //const environmentVariableValue = get(environmentVariableName);
 
