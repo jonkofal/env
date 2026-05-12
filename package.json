@@ -1,6 +1,6 @@
 {
   "name": "@ampsy/env",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Fast-fail environment variable accessor.",
   "author": "Jon Kofal",
   "main": "./lib/env.js",
